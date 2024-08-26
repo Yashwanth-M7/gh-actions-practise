@@ -25,6 +25,8 @@ jobs:
         run: npm ci
       - name: Build website
         run: npm run build
+      - nmae: list contents
+        run: ls -la
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
